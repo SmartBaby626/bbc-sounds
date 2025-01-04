@@ -48,7 +48,7 @@ def parse_args():
     )
     parser.add_argument(
         "-q", "--quality", type=str, required=True,
-        help="quality of the download"
+        help="quality of the download (worst/best)"
     )
     args = parser.parse_args()
     if args.quality is None: 
